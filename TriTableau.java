@@ -51,7 +51,7 @@ public class TriTableau
  
         do {
             permut = false;
-            for (int i = 0; i < longueur; i++) {
+            for (int i = 0; i < longueur -1; i++) {
                 if (tableau[i] < tableau[i + 1]) {
                     tampon = tableau[i];
                     tableau[i] = tableau[i + 1];
